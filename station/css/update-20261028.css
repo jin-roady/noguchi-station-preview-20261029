@@ -1,0 +1,119 @@
+/* 訪問看護・訪問リハビリのご案内（2026年10月更新） */
+.station-update-section { margin: 0 auto 90px; }
+.station-update-section .section-title01 { margin-bottom: 36px; }
+.station-update-card { padding: 32px; border: 1px solid #f3e5e8; border-radius: 16px; background: #fff; line-height: 1.9; overflow-wrap: anywhere; }
+.station-update-card p + p { margin-top: 16px; }
+.station-staff-role { color: #756b60; font-weight: 500; }
+.station-update-heading { font-size: 24px; font-weight: 600; margin-bottom: 16px; color: #5d5445; }
+.station-rehab { padding: 56px 0; background: #f7fbf3; border: 0; border-radius: 0; line-height: 1.9; overflow-wrap: anywhere; }
+.station-rehab-body > p + p { margin-top: 16px; }
+.station-update-link { display: inline-block; margin-top: 20px; color: #756b60; font-weight: 500; text-decoration: underline; text-underline-offset: 4px; }
+.station-cooperation .station-update-heading { margin-top: 28px; }
+.station-cooperation-list { list-style: disc; padding-left: 1.5em; }
+.station-cooperation-list li + li { margin-top: 10px; }
+.clinic-station-banner { margin: 36px 0; }
+.clinic-station-banner-link { display: flex; align-items: center; gap: 32px; padding: 24px 32px; border: 1px solid #eee4d2; border-radius: 16px; background: #fffcf7; color: #5d5445; text-decoration: none; }
+.clinic-station-banner-link img { width: 38%; max-width: 340px; height: auto; }
+.clinic-station-banner-copy { display: grid; gap: 10px; line-height: 1.7; }
+.clinic-station-banner-title { font-size: 24px; font-weight: 600; color: #5d5445; }
+.clinic-station-banner-more { color: #756b60; font-weight: 500; text-decoration: underline; text-underline-offset: 4px; }
+.clinic-station-banner-link:hover { background: #fff8ed; }
+.clinic-station-banner-link:focus-visible, .station-update-link:focus-visible { outline: 3px solid #8d7c64; outline-offset: 5px; }
+@media (max-width: 767px) {
+  .station-update-section { margin-bottom: 50px; }
+  .station-update-section .section-title01 { margin-bottom: 24px; }
+  .station-update-card { padding: 22px 18px; font-size: 16px; }
+  .station-update-heading { font-size: 21px; }
+  .station-rehab { padding: 36px 0; font-size: 16px; }
+  .clinic-station-banner { margin: 24px 0; }
+  .clinic-station-banner-link { flex-direction: column; gap: 16px; padding: 22px 18px; }
+  .clinic-station-banner-link img { width: 100%; max-width: 300px; }
+  .clinic-station-banner-title { font-size: 20px; }
+  .clinic-station-banner-copy { font-size: 16px; }
+}
+
+/* 訪問リハビリ案内内の担当スタッフ紹介 */
+.director-message .director-title { color: #5d5445; }
+.director-message .director-content { align-items: flex-start; }
+.station-staff { margin: 28px 0 0; padding-top: 28px; border-top: 1px solid #dce9d2; scroll-margin-top: 240px; }
+.station-staff-title { margin-bottom: 28px; color: #5d5445; font-family: "Zen Maru Gothic", sans-serif; font-size: 20px; font-weight: 500; line-height: 1.6; }
+.station-staff-profile { display: grid; grid-template-columns: minmax(0, 1fr); row-gap: 16px; }
+.station-staff-identity .station-staff-role { margin-bottom: 4px; font-size: 14px; font-weight: 400; }
+.station-staff-name { color: #5d5445; font-family: "Zen Maru Gothic", sans-serif; font-size: 26px; font-weight: 500; line-height: 1.6; }
+.station-staff-description { max-width: 42em; color: #555; font-size: 17px; font-weight: 400; line-height: 1.9; overflow-wrap: anywhere; }
+/* 小窓のようなアーチ形の写真枠。スマートフォンでは紹介文を全幅にする */
+.station-staff-profile.has-photo { grid-template-columns: 140px minmax(0, 1fr); column-gap: 28px; align-items: start; }
+.station-staff-photo { grid-column: 1; grid-row: 1 / 3; display: grid; place-items: center; width: 140px; aspect-ratio: 4 / 5; overflow: hidden; border: 5px solid #fff; border-radius: 70px 70px 24px 24px; background: #edf5e5; box-shadow: 0 0 0 1px #e1ecd8; }
+.station-staff-photo-label { color: #81766c; font-size: 13px; font-weight: 400; letter-spacing: 0.03em; }
+.station-staff-photo img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.station-staff-profile.has-photo .station-staff-identity, .station-staff-profile.has-photo .station-staff-description { grid-column: 2; }
+@media (max-width: 768px) {
+  .director-message { margin-bottom: 50px; padding: 32px 20px; }
+  .director-message .director-content { align-items: center; }
+  .station-staff { margin: 24px 0 0; padding-top: 24px; scroll-margin-top: 90px; }
+  .station-staff-title { margin-bottom: 22px; font-size: 18px; }
+  .station-staff-name { font-size: 24px; }
+  .station-staff-description { font-size: 16px; }
+  .station-staff-profile.has-photo { grid-template-columns: 140px minmax(0, 1fr); column-gap: 20px; align-items: center; }
+  .station-staff-photo { grid-row: 1; }
+  .station-staff-profile.has-photo .station-staff-description { grid-column: 1 / -1; }
+}
+
+@media (max-width: 360px) {
+  .station-staff-profile.has-photo { grid-template-columns: minmax(0, 1fr); }
+  .station-staff-photo { justify-self: center; }
+  .station-staff-profile.has-photo .station-staff-identity { grid-column: 1; text-align: center; }
+}
+
+/* 見出しの左にピクトグラムを配置し、説明文はその下にまとめる */
+.station-rehab-heading { display: flex; align-items: center; gap: 24px; margin-bottom: 24px; }
+.station-rehab-icon { flex: 0 0 100px; }
+.station-rehab-icon img { display: block; width: 100px; height: auto; }
+.station-rehab-heading-text { min-width: 0; }
+.station-rehab-heading .station-staff-role { margin-bottom: 6px; }
+.station-rehab-heading .station-update-heading { margin-bottom: 0; }
+.station-rehab-body { min-width: 0; }
+#rehabilitation { scroll-margin-top: 240px; }
+@media (max-width: 768px) {
+  .station-rehab-heading { gap: 16px; margin-bottom: 20px; }
+  .station-rehab-icon { flex-basis: 80px; }
+  .station-rehab-icon img { width: 80px; }
+  #rehabilitation { scroll-margin-top: 90px; }
+}
+.station-rehab-heading .station-update-heading { text-wrap: balance; }
+
+/* ステーションTOPの余白を整理 */
+@media (min-width: 768px) {
+  .station-home .director-message { margin-bottom: 80px; }
+  .station-home .about { margin-bottom: 80px; }
+  .station-home .about-title { margin-bottom: 48px; }
+  .station-home .about-list { padding-top: 48px; }
+  .station-home .about-list li { margin-bottom: 64px; }
+  .station-home .about-list li:last-child { margin-bottom: 0; }
+  .station-home .wrapper { padding: 80px 0 48px; }
+  .station-home .service { margin-bottom: 80px; }
+  .station-home .service-title { margin-bottom: 48px; }
+  .station-home .service-txt { margin-bottom: 56px; }
+  .station-home .service-list li { margin-bottom: 56px; }
+  .station-home .use-bg { padding-top: 72px; padding-bottom: 72px; }
+  .station-home .use-list { margin-bottom: 56px; }
+  .station-home .use-list li { margin-bottom: 48px; }
+  .station-home .use-list li:last-child { margin-bottom: 0; }
+  .station-home .station-cooperation { margin-bottom: 0; padding: 48px 0 80px; }
+}
+@media (max-width: 767px) {
+  .station-home .about-list { padding-top: 40px; padding-bottom: 0; }
+  .station-home .wrapper { padding-top: 48px; }
+  .station-home .use { padding: 48px 0; margin-bottom: 0; }
+  .station-home .use-title { margin-bottom: 48px; }
+  .station-home .use-list { margin-bottom: 48px; }
+  .station-home .use-list li { margin-bottom: 48px; }
+  .station-home .use-list li:last-child { margin-bottom: 0; }
+  .station-home .station-cooperation { margin-bottom: 0; padding: 0 0 48px; }
+}
+
+/* メインコピーの一行目を途中で折り返さない */
+.station-home .mv-title-line { white-space: nowrap; }
+@media (min-width: 768px) {
+  .station-home .mv-title { font-size: 2.1vw; }
+}

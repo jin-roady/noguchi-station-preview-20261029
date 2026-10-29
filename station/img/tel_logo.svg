@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="61.996" height="61.996" viewBox="0 0 61.996 61.996">
+  <g id="グループ_1298" data-name="グループ 1298" transform="translate(-1691.59 -620.688)">
+    <path id="パス_1037" data-name="パス 1037" d="M31,0A31,31,0,1,1,0,31,31,31,0,0,1,31,0Z" transform="translate(1691.59 620.688)" fill="#fff"/>
+    <g id="phone-call" transform="translate(1709.566 633.665)">
+      <path id="パス_304" data-name="パス 304" d="M6.346,4h6.693l3.346,8.366L12.2,14.876a18.405,18.405,0,0,0,8.366,8.366l2.51-4.183,8.366,3.346V29.1A3.346,3.346,0,0,1,28.1,32.444,26.771,26.771,0,0,1,3,7.346,3.346,3.346,0,0,1,6.346,4" transform="translate(-7.032 0.743)" fill="#f7abab"/>
+      <path id="パス_305" data-name="パス 305" d="M15,7a4.205,4.205,0,0,1,4.205,4.205" transform="translate(3.855 2.538)" fill="none" stroke="#f7abab" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="パス_306" data-name="パス 306" d="M15,3A11.325,11.325,0,0,1,26.325,14.325" transform="translate(3.75 -0.144)" fill="none" stroke="#f7abab" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+  </g>
+</svg>
